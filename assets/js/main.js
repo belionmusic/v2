@@ -4,8 +4,15 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
 (function($) {
   "use strict";
+
+
+  setTimeout(() => {
+    $('#whats-app-modal').modal('show')
+  }, 30000);
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   // var scrolltoOffset = $('#main-nav').outerHeight() - 1;
