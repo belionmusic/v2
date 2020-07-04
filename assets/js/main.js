@@ -69,6 +69,8 @@
   //  Typed Js
   // ========================================================================= //
 
+  $('body').scrollspy({target: ".navbar", offset: 50});  
+
   var typed = $(".typed");
 
   $(function() {

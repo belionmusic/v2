@@ -52,6 +52,13 @@ a:hover {
 a:hover, a:focus {
   color: #4D4D4D;
 }
+.seta{
+  fill:#fff;
+}
+.seta:hover{
+  fill:#101010;
+  transition: all 0.5s ease-in-out 0s;
+}
 
 nav ul li a {
   padding: 2px 0 0 0;
@@ -135,8 +142,7 @@ p {
 }
 
 .paddsection {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 149px;
 }
 
 .paddsections {
@@ -224,10 +230,8 @@ nav ul li a {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
-  height: 100vh;
+  background: url("../img/home-bg.jpg") repeat scroll center top/cover;
   width: 100%;
-  background-position-y: top;
 }
 #hero .container .row .col-lg-12{
   text-align: center;
@@ -274,6 +278,12 @@ nav ul li a {
   color: #fff;
   font-size: 15px;
 }
+.hero-content .list-unstyled .list-social{
+  top: 50%;
+  position: absolute;
+  margin-left: 20%;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -339,8 +349,6 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 #about {
   width: 100%;
-  height: auto;
-  padding-top: 120px;
   text-align: center;
 }
 #about .video-row{
@@ -351,7 +359,7 @@ nav ul li a {
   text-align: center;
   font-size: 75px;
   font-family: 'Jockey One', sans-serif;
-  margin-bottom: 10%;
+  padding: 149px 34px;
 }
 
 #about .div-img-bg {
@@ -446,14 +454,14 @@ nav ul li a {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# music
 --------------------------------------------------------------*/
-#portfolio {
-  position: relative;
-  padding-bottom: 50px;
+#music {
+  background: url("../img/music-bg.jpg") repeat scroll center center/cover;
+  width: 100%;
 }
 
-#portfolio #portfolio-flters {
+#music #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -462,7 +470,7 @@ nav ul li a {
   padding: 2px 15px;
 }
 
-#portfolio #portfolio-flters li {
+#music #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -475,19 +483,19 @@ nav ul li a {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+#music #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   color: #b8a07e;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#music #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
-#portfolio .portfolio-item {
+#music .portfolio-item {
   margin-bottom: 30px;
 }
 
-#portfolio .portfolio-item .portfolio-info {
+#music .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
   left: 30px;
@@ -499,21 +507,21 @@ nav ul li a {
   padding: 15px;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 {
+#music .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   color: #666;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-#portfolio .portfolio-item .portfolio-info p {
+#music .portfolio-item .portfolio-info p {
   color: #999;
   font-size: 14px;
   margin: 0;
   padding: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
+#music .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -521,15 +529,15 @@ nav ul li a {
   color: #b8a07e;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
+#music .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #cab89f;
 }
 
-#portfolio .portfolio-item .portfolio-info .details-link {
+#music .portfolio-item .portfolio-info .details-link {
   right: 10px;
 }
 
-#portfolio .portfolio-item:hover .portfolio-info {
+#music .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
 }
@@ -680,8 +688,21 @@ nav ul li a {
 # Journal
 --------------------------------------------------------------*/
 #contact {
-  height: auto;
+  padding-bottom: 0px;
   width: 100%;
+}
+.head-contact{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Jockey One', sans-serif;
+}
+.email-contact{
+  text-align: center;
+  margin: 10% 0 10% 0;
+}
+.email-contact a{
+  color:white;
 }
 
 .contact-details {
@@ -768,13 +789,38 @@ nav ul li a {
 }
 
 /*--------------------------------------------------------------
-# Blog
+# BIO
 --------------------------------------------------------------*/
-/*  Navbar fixd page */
-.subpage-nav {
-  display: block !important;
+#bio{
+
+}
+.text-bio{
+  text-align: justify;
+  margin-top: -5%;
 }
 
+/*--------------------------------------------------------------
+# SUBSCRIBER
+--------------------------------------------------------------*/
+#subscriber{
+  text-align: center;
+}
+.subs-head{
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Jockey One', sans-serif;
+}
+.text-subs{
+  color: white;
+  letter-spacing: .8px;
+}
+#subs-input{
+  border: 1px solid transparent;
+  font-family: inherit;
+  line-height: normal;
+  outline: none;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  /* Single page */
 /*-----------------------------------------------------------------------------------*/
@@ -936,7 +982,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #b6122d;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1011,7 +1057,7 @@ blockquote {
     margin-bottom: 0;
   }
   /* portfolio */
-  #portfolio .portfolio-list .nav li {
+  #music .portfolio-list .nav li {
     float: none;
     margin: 20px;
     display: inline-block;
@@ -1086,7 +1132,7 @@ blockquote {
     margin-bottom: 0;
   }
   /* portfolio */
-  #portfolio .portfolio-list .nav li {
+  #music .portfolio-list .nav li {
     float: none;
     margin: 20px;
     display: inline-block;
@@ -1161,7 +1207,7 @@ blockquote {
     margin-bottom: 0;
   }
   /* portfolio */
-  #portfolio .portfolio-list .nav li {
+  #music .portfolio-list .nav li {
     float: none;
     margin: 10px;
     display: inline-block;
@@ -1239,7 +1285,7 @@ blockquote {
     margin-bottom: 0;
   }
   /* portfolio */
-  #portfolio .portfolio-list .nav li {
+  #music .portfolio-list .nav li {
     float: none;
     margin: 20px;
   }
@@ -1313,7 +1359,7 @@ blockquote {
     margin-bottom: 0;
   }
   /* portfolio */
-  #portfolio .portfolio-list .nav li {
+  #music .portfolio-list .nav li {
     float: none;
     margin: 20px;
   }
