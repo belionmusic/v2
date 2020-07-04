@@ -5,7 +5,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
-/*--------------------------------------------------------------
+/*------------------------------#--------------------------------
 # General
 --------------------------------------------------------------*/
 html { scroll-behavior: smooth; }
@@ -243,23 +243,23 @@ nav ul li a {
 }
 
 /*--------------------------------------------------------------
-# Hero
+# Home
 --------------------------------------------------------------*/
-#hero {
+#home {
   background: url("../img/home-bg.jpg") repeat scroll center top/cover;
   width: 100%;
-  box-shadow: inset 0 -20em 20em -10em black;
+  box-shadow: inset 0 -20em 20em -10em #101010;
 }
-#hero .container .row .col-lg-12{
+#home .container .row .col-lg-12{
   text-align: center;
 }
 
-#hero .container .row .col-lg-12 .seta-hero {
+#home .container .row .col-lg-12 .seta-hero {
   position: relative;
   top: -50%;
 }
 
-#hero .hero-content {
+#home .hero-content {
   height: 100vh;
   text-align: left;
   width: 100%;
@@ -372,11 +372,11 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  About
 /*-----------------------------------------------------------------------------------*/
-#about {
+#video {
   width: 100%;
   text-align: center;
 }
-#about .video-row{
+#video .video-row{
   
 }
 .h2-topo{
@@ -387,12 +387,12 @@ nav ul li a {
   padding: 149px 34px;
 }
 
-#about .div-img-bg {
+#video .div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #b8a07e;
 }
 
-#about .div-img-bg .about-img img {
+#video .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
   margin-top: -60px;
@@ -402,13 +402,13 @@ nav ul li a {
   object-fit: cover;
 }
 
-#about .about-descr .p-heading {
+#video .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
 }
 
-#about .about-descr .separator {
+#video .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
@@ -657,25 +657,25 @@ nav ul li a {
 /*--------------------------------------------------------------
 # Journal
 --------------------------------------------------------------*/
-#journal, #journal-blog {
+#shows, #journal-blog {
   height: auto;
   width: 100%;
   padding-bottom: 60px;
   position: relative;
 }
 
-#journal-blog {
+#shows-blog {
   background: #fff;
   padding-bottom: 30px;
 }
 
-#journal .journal-block {
+#shows .journal-block {
   display: inline-block;
   height: auto;
   width: 100%;
 }
 
-#journal .journal-block .journal-info {
+#shows .journal-block .journal-info {
   position: relative;
 }
 
@@ -855,7 +855,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  /* Single page */
 /*-----------------------------------------------------------------------------------*/
-#journal-blog {
+#shows-blog {
   padding-top: 140px;
 }
 
@@ -1073,17 +1073,17 @@ blockquote {
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
   }
-  #about .div-img-bg {
+  #video .div-img-bg {
     padding: 0;
   }
-  #about .div-img-bg .about-img img {
+  #video .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
-  #about .about-descr .p-heading {
+  #video .about-descr .p-heading {
     font-size: 20px;
   }
-  #about .about-descr .separator {
+  #video .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
@@ -1094,7 +1094,7 @@ blockquote {
     display: inline-block;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  #shows .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
@@ -1152,17 +1152,17 @@ blockquote {
   .head-info .header-content h1 {
     font-size: 32px;
   }
-  #about .div-img-bg {
+  #video .div-img-bg {
     padding: 0;
   }
-  #about .div-img-bg .about-img img {
+  #video .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
-  #about .about-descr .p-heading {
+  #video .about-descr .p-heading {
     font-size: 20px;
   }
-  #about .about-descr .separator {
+  #video .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
@@ -1173,7 +1173,7 @@ blockquote {
     display: inline-block;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  #shows .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
@@ -1227,17 +1227,17 @@ blockquote {
   .head-info .header-content h1 {
     font-size: 32px;
   }
-  #about .div-img-bg {
+  #video .div-img-bg {
     padding: 0;
   }
-  #about .div-img-bg .about-img img {
+  #video .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
-  #about .about-descr .p-heading {
+  #video .about-descr .p-heading {
     font-size: 20px;
   }
-  #about .about-descr .separator {
+  #video .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
@@ -1248,7 +1248,7 @@ blockquote {
     display: inline-block;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  #shows .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
@@ -1309,17 +1309,17 @@ blockquote {
   .head-info .header-content h1 {
     font-size: 32px;
   }
-  #about .div-img-bg {
+  #video .div-img-bg {
     padding: 0;
   }
-  #about .div-img-bg .about-img img {
+  #video .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
-  #about .about-descr .p-heading {
+  #video .about-descr .p-heading {
     font-size: 20px;
   }
-  #about .about-descr .separator {
+  #video .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
@@ -1329,7 +1329,7 @@ blockquote {
     margin: 20px;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  #shows .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
@@ -1387,17 +1387,17 @@ blockquote {
   .head-info .header-content h1 {
     font-size: 32px;
   }
-  #about .div-img-bg {
+  #video .div-img-bg {
     padding: 0;
   }
-  #about .div-img-bg .about-img img {
+  #video .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
-  #about .about-descr .p-heading {
+  #video .about-descr .p-heading {
     font-size: 20px;
   }
-  #about .about-descr .separator {
+  #video .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
@@ -1407,7 +1407,7 @@ blockquote {
     margin: 20px;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  #shows .journal-block .journal-info {
     margin-bottom: 30px;
   }
   /* Contact */
